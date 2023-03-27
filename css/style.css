@@ -36,22 +36,21 @@ body {
       rgba(40, 180, 133, 0.8)
     ),
     url(/img/hero.jpg);
-
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
-.logo {
+.header__logo {
   height: 3.5rem;
 }
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -64,7 +63,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
-.primary-heading-main {
+.primary-heading--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -74,7 +73,7 @@ body {
   animation-timing-function: ease-in;
 }
 
-.primary-heading-sub {
+.primary-heading--sub {
   display: block;
   font-size: 2rem;
   font-weight: 400;
@@ -98,7 +97,7 @@ body {
   position: relative;
 }
 
-.white-btn {
+.btn--white {
   background-color: #fff;
   color: var(--gray-text);
 }
@@ -124,7 +123,7 @@ body {
   z-index: -1;
   transition: all 0.3s;
 }
-.white-btn::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -133,7 +132,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveUp 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
