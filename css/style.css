@@ -12,14 +12,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 10px;
+}
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.7;
   color: var(--gray-text);
-  padding: 30px;
+  padding: 3rem;
 }
 
 /* Header Section */
@@ -40,11 +42,11 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 }
 .logo {
-  height: 35px;
+  height: 3.5rem;
 }
 .text-box {
   position: absolute;
@@ -57,13 +59,13 @@ body {
 .primary-heading {
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .primary-heading-main {
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 30px;
+  letter-spacing: 3rem;
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -71,9 +73,9 @@ body {
 
 .primary-heading-sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
-  letter-spacing: 15px;
+  letter-spacing: 1.5rem;
   animation-name: movieInRight;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -85,9 +87,9 @@ body {
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 10rem;
   transition: all 0.3s;
   position: relative;
 }
@@ -114,7 +116,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 100px;
+  border-radius: 10rem;
   z-index: -1;
   transition: all 0.3s;
 }
@@ -137,10 +139,10 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
   100% {
     opacity: 1;
@@ -151,10 +153,10 @@ body {
 @keyframes movieInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   80% {
-    transform: translateX(-10px);
+    transform: translateX(-1rem);
   }
   100% {
     opacity: 1;
@@ -164,7 +166,7 @@ body {
 @keyframes moveUp {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(2rem);
   }
   100% {
     opacity: 1;
