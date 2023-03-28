@@ -67,14 +67,14 @@ body {
 /* btn css */
 .btn:link,
 .btn:visited {
-  font-size: 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 10rem;
-  transition: all 0.3s;
-  position: relative; }
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.5rem; }
 
 .btn--white {
   background-color: #fff;
