@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 10/16 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+}
