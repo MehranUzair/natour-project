@@ -29,3 +29,24 @@ body {
     animation-timing-function: ease-in;
   }
 }
+
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+  background-image: linear-gradient(
+    to right,
+    $primary-color-light,
+    $primary-green-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+}
