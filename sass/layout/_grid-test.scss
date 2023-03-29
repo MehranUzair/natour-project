@@ -1,0 +1,36 @@
+.row {
+  max-width: 114rem;
+  background-color: #ffa49e;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+  @include clearfix;
+
+  .col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+    background-color: #fec5bb;
+    float: left;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - #{$gutter-horizontal}) / 3);
+    background-color: #9a8c98;
+    float: left;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+  .col-1-of-4 {
+    width: calc((100% - #{$gutter-horizontal}) / 4);
+    background-color: #84a59d;
+    float: left;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+}
